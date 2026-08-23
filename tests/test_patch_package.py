@@ -72,8 +72,16 @@ class PatchPackageTests(unittest.TestCase):
         manager = (PATCH / "Manage-LOTM-English.ps1").read_text(encoding="utf-8")
         self.assertNotIn("C:\\Users\\quiri", manager)
         self.assertIn("Resolve-GameRoot", manager)
+        self.assertTrue((PATCH / "START HERE.txt").is_file())
         for name in ("Install.cmd", "Update.cmd", "Verify.cmd", "Uninstall.cmd"):
             self.assertTrue((PATCH / name).is_file(), name)
+
+    def test_update_repairs_managed_files(self) -> None:
+        manager = (PATCH / "Manage-LOTM-English.ps1").read_text(encoding="utf-8")
+        self.assertNotIn("Managed translation file is missing; refusing partial update", manager)
+        self.assertNotIn("Managed translation file was modified; refusing to overwrite it", manager)
+        self.assertIn("Original backup is missing for retired managed file", manager)
+        self.assertIn("Rollback snapshot", manager)
 
     def test_release_builder_parses(self) -> None:
         builder = ROOT / "tools" / "build_release.ps1"

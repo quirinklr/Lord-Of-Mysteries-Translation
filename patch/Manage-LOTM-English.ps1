@@ -417,14 +417,6 @@ function Update-Patch([object]$Release) {
     $oldByPath = @{}
     foreach ($entry in @($state.files)) {
         $relative = [string]$entry.relative_path
-        $destination = Resolve-SafeChild $game.Root $relative
-        if (-not (Test-Path -LiteralPath $destination -PathType Leaf)) {
-            throw "Managed translation file is missing; refusing partial update: $relative"
-        }
-        $currentHash = Get-FileSha256Lower $destination
-        if ($currentHash -ne ([string]$entry.source_sha256).ToLowerInvariant()) {
-            throw "Managed translation file was modified; refusing to overwrite it: $relative"
-        }
         $oldByPath[$relative.ToLowerInvariant()] = $entry
     }
 
@@ -442,9 +434,10 @@ function Update-Patch([object]$Release) {
     foreach ($entry in @($Release.external_bridge.files)) {
         $newPaths[([string]$entry.relative_path).ToLowerInvariant()] = $true
     }
+    $obsolete = [System.Collections.Generic.List[object]]::new()
     foreach ($relative in @($oldByPath.Keys)) {
         if (-not $newPaths.ContainsKey($relative)) {
-            throw "The update package no longer manages an installed file; refusing to orphan it: $relative"
+            $obsolete.Add($oldByPath[$relative])
         }
     }
 
@@ -456,6 +449,35 @@ function Update-Patch([object]$Release) {
     $newStateFiles = [System.Collections.Generic.List[object]]::new()
 
     try {
+        foreach ($entry in @($obsolete)) {
+            $relative = [string]$entry.relative_path
+            $destination = Resolve-SafeChild $game.Root $relative
+            $destinationExisted = Test-Path -LiteralPath $destination -PathType Leaf
+            $rollbackFile = Resolve-SafeChild (Join-Path $updateRoot 'files') $relative
+            if ($destinationExisted) {
+                New-Item -ItemType Directory -Force -Path (Split-Path -Parent $rollbackFile) | Out-Null
+                Copy-Item -LiteralPath $destination -Destination $rollbackFile
+            }
+            $changed.Add([pscustomobject]@{
+                relative_path = $relative
+                destination = $destination
+                rollback_file = $rollbackFile
+                existed = [bool]$destinationExisted
+                target_sha256 = ''
+            })
+            if ([bool]$entry.original_existed) {
+                $original = Resolve-SafeChild (Join-Path $game.BackupRoot 'files') $relative
+                if (-not (Test-Path -LiteralPath $original -PathType Leaf)) {
+                    throw "Original backup is missing for retired managed file: $relative"
+                }
+                New-Item -ItemType Directory -Force -Path (Split-Path -Parent $destination) | Out-Null
+                Copy-Item -LiteralPath $original -Destination $destination -Force
+            }
+            elseif ($destinationExisted) {
+                Remove-Item -LiteralPath $destination -Force
+            }
+        }
+
         foreach ($entry in @($Release.external_bridge.files)) {
             $relative = [string]$entry.relative_path
             $key = $relative.ToLowerInvariant()
