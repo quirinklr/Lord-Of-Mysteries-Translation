@@ -1,0 +1,9 @@
+* text=auto
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+*.lua text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.oodle binary
+patch/assets/payload/bridge/game/Saved/Mods/lua/cpdd_translation/** -text

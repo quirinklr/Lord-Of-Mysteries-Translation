@@ -1,0 +1,678 @@
+{
+  "formatVersion": 3,
+  "sourceKind": "bundled-certified-release-assets-plus-reviewed-runtime",
+  "translationReleaseId": "lotm-english-data-20260823",
+  "installerReleaseId": "lotm-english-1.0.0",
+  "displayVersion": "1.0.0",
+  "target": "C7/Saved/Mods",
+  "aliases": 7,
+  "overlays": 38,
+  "files": [
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data.lua",
+      "mappingKind": "overlay",
+      "sha256": "e5f010463690d281787b4cb2032da64b7b2a91cd87defb87d9c6594107a2d0a0",
+      "size": 4367881
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_achievement.lua",
+      "mappingKind": "overlay",
+      "sha256": "8b97c9b90508e8aaf7a966f90589bb200059c5cf8ee6f8ba9c5ba09b60d0a616",
+      "size": 37320
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_asidetalk.lua",
+      "mappingKind": "overlay",
+      "sha256": "c1423d9ee1bb0242ec0f74b34b9dcbbb09c847d64ab588e8cb345dfbe0db49c8",
+      "size": 159460
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_aura.lua",
+      "mappingKind": "overlay",
+      "sha256": "86dad59c1ae0188c89ceb42cf922f4c4c9b167a3f06c5f1faca8339d6571833d",
+      "size": 881
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_beckland.lua",
+      "mappingKind": "overlay",
+      "sha256": "3333ec5a14fd9d1278f467d5717c7f2075702645564c954a063e11f5a45c5dde",
+      "size": 17795
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_buffappear.lua",
+      "mappingKind": "overlay",
+      "sha256": "b808508ca5075ca7112ea875811011e948adfd2184c6e48ee79137f947b3190d",
+      "size": 69111
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_buffdata.lua",
+      "mappingKind": "overlay",
+      "sha256": "403f0d40a99e7aa07262ca589d5ae12f2bb42d1f9e2a411975dfd2eb53da11a4",
+      "size": 139088
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_debug.lua",
+      "mappingKind": "overlay",
+      "sha256": "3aa4f58d684cea6dc226f801a2c3d8d60ed2e9645f3d7f789f9325fd7ce979ff",
+      "size": 94029
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_gossip.lua",
+      "mappingKind": "overlay",
+      "sha256": "2a875bb5a3a0030236c8f8bfdaf07e0fbb99d546858a0a10365c8cea3249cb1f",
+      "size": 217383
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_guide.lua",
+      "mappingKind": "overlay",
+      "sha256": "ebfcceb95792669c0119eb955767605a2fe611598d71b22fc827fa87d188fe87",
+      "size": 29572
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_itemgift.lua",
+      "mappingKind": "overlay",
+      "sha256": "22ac65ce398de3b9dde5a42292a8f1573f31bf7a567c0656ccdf263cd022d584",
+      "size": 124474
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_itemlife.lua",
+      "mappingKind": "overlay",
+      "sha256": "abdcc6039eb93df63f34f2b8c6f70777ab9f49849b2343877ce1d8c29f712dd6",
+      "size": 13537
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_itemnormal.lua",
+      "mappingKind": "overlay",
+      "sha256": "c3760dde9f4adf38862c3613ccbf29a819a70f5b7c7dd6777a6cb0f4f174cc4a",
+      "size": 144885
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_itemoutlook.lua",
+      "mappingKind": "overlay",
+      "sha256": "cdb9734bc21498e12f40a1b531340b5b5f7410375622740c2f335d3aafbe4913",
+      "size": 129962
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_itemtask.lua",
+      "mappingKind": "overlay",
+      "sha256": "3802d8c9c231b6d12b6b203d32d1b3a7c2d811d8f7a18caf1850c8239df8a2aa",
+      "size": 7768
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_lettertext.lua",
+      "mappingKind": "overlay",
+      "sha256": "b8e6590694ed49fb57213698dcc194a29f6a6d4dd1b2487befc291df9ce041d4",
+      "size": 161193
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_loading.lua",
+      "mappingKind": "overlay",
+      "sha256": "4805569edea7eea27a3f2807497cc7ccc99857015e946b73db607e9b1c1dd8aa",
+      "size": 29734
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_main.lua",
+      "mappingKind": "overlay",
+      "sha256": "cdb4d67eba1cdf8980bd285983cbfee5b25017427ad3e45348616e6dab3ea503",
+      "size": 2192
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_maintask.lua",
+      "mappingKind": "overlay",
+      "sha256": "8a77486f767c0695839ae140c88c9b47c3cb32063c7a797103e5b1c24e37052c",
+      "size": 314801
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_manor.lua",
+      "mappingKind": "overlay",
+      "sha256": "4327f8bb39f5f3c238668f2a38f6cadda7a0c2cdf519526aaf961a1123103768",
+      "size": 39419
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_monsterskill.lua",
+      "mappingKind": "overlay",
+      "sha256": "6ffc0e1a6faf594861e0d8aecff937211fc5ab6843d86939166dac8cba2e5de4",
+      "size": 32368
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_newbietask.lua",
+      "mappingKind": "overlay",
+      "sha256": "1bd601962c6bb28ee28a260b9ed31b142b2f39c72ffdf849d9aa2bf23d93873a",
+      "size": 9109
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_newspaper.lua",
+      "mappingKind": "overlay",
+      "sha256": "be470530747ee46e2ae46efa347d4ec8d7a28e32457e9d4e1dcc3a42ab451aa2",
+      "size": 14780
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_nocamera.lua",
+      "mappingKind": "overlay",
+      "sha256": "1067c4d3be6241c5ba2e7014a91e229ab38e725cd1366ed763927608e40c4118",
+      "size": 2432
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_oldtalk.lua",
+      "mappingKind": "overlay",
+      "sha256": "754ba52009da879c1fd690979835e57cbb171546402b0f24b0a4f47dc4739827",
+      "size": 502477
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_othertalk.lua",
+      "mappingKind": "overlay",
+      "sha256": "0b8bdbdc4b90c2df71d1fd4087a45207839744f499b7cbd63c154f37742677f1",
+      "size": 237729
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_sidetask.lua",
+      "mappingKind": "overlay",
+      "sha256": "346f58a03ae67f58e56c52f067cd11fef426d7073f4db61611f5563b40728e21",
+      "size": 71659
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_skill.lua",
+      "mappingKind": "overlay",
+      "sha256": "aadcb5cf09a7bb24f3c677eaf061d2383ea94ed3e6b3a84448bcc40aedd18ac2",
+      "size": 133471
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_skill1.lua",
+      "mappingKind": "overlay",
+      "sha256": "d7245001a5b6d02ab84846cd110c29d3c74e1a7c368272309ef0a7744166729a",
+      "size": 29642
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_skill2.lua",
+      "mappingKind": "overlay",
+      "sha256": "01e89ee887239ca00de150002b8c882a5847e37d82e2e915067c3812cc379ba2",
+      "size": 14116
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_skill3.lua",
+      "mappingKind": "overlay",
+      "sha256": "47d3f0362cfa4bd8ca45398341266fe1b4d2b8c8b67a97bdf144ff941c0c9fef",
+      "size": 18088
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_spellfield.lua",
+      "mappingKind": "overlay",
+      "sha256": "5afd635c569d13bb0cea6e2e8765b627549ae917db60ff809df0b6e9d0c3f9b3",
+      "size": 2321
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_talk.lua",
+      "mappingKind": "overlay",
+      "sha256": "7ebbf38975dae30bb0722e5e6e66a214a0fa598204ef408ada5f9685cb1268ba",
+      "size": 40384
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_talkother.lua",
+      "mappingKind": "overlay",
+      "sha256": "4f1a7f279067c370ecad97ce08e72047209f7b1e02733431c1faf14496c97783",
+      "size": 301889
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_tingen.lua",
+      "mappingKind": "overlay",
+      "sha256": "7cb8e9aab7e1faebba76cc89bcb43c96760e659a464db60b713c0b2a252f08e7",
+      "size": 310627
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_tingentalk.lua",
+      "mappingKind": "overlay",
+      "sha256": "6219e427dc206eb3925f9c64edef23d01280fc029efd444f12820dd7b74f6b07",
+      "size": 280749
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_traingame.lua",
+      "mappingKind": "overlay",
+      "sha256": "3cc462b1ac658a9746f916b5f5ddbaafdd7f95122c4b315c28257bcb7c2fac16",
+      "size": 29098
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_trap.lua",
+      "mappingKind": "overlay",
+      "sha256": "c25384333367227a839c2a06d407d9dfa648506b9add5836529f468c6e1f50f3",
+      "size": 330
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Config/StringConst/Language_zhs.lua",
+      "mappingKind": "override",
+      "sha256": "cf81ed5116ac98eefa793ef315adcf63cf8c972417dcd24f874f7188fc125ce8",
+      "size": 118475
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Shared/language_zhs.lua",
+      "mappingKind": "override",
+      "sha256": "15820afa272b9417a6b3360d9719217233fcc3ddb32772a9b841d556e071e02d",
+      "size": 1905
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Launch/I18n/zh.lua",
+      "mappingKind": "override",
+      "sha256": "e03c93e584f02ee2bfb7bde1a49d2d3ab05198d5a6c9be029181d9c16728cbd8",
+      "size": 9959
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Gameplay/Debug/DebugConst.lua",
+      "mappingKind": "override",
+      "sha256": "c212448afcffa2d8578cd1dd8a4370c983466eef5900d61acf708583389c1ec3",
+      "size": 1648
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Gameplay/LogicSystem/CreateRole/CreateRoleAnswer_Panel.lua",
+      "mappingKind": "override",
+      "sha256": "ae3cf651b535dcab85a251b385534ac259ddf5dadcb3992e539a86a4b93c45ef",
+      "size": 9406
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Excel/RoleCreateQandAData.lua",
+      "mappingKind": "override",
+      "sha256": "57d533305cccecff410071c7f07752c6dfb7e47387a4db76632af7db40415960",
+      "size": 643
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Framework/Utils/LuaCommon/Managers/TableDataManager.lua",
+      "mappingKind": "skip",
+      "sha256": "492d6fa8625b4ab5d759239a7618fdfb63c998abc9e119c973ef720076a2ed2a",
+      "size": 11225
+    },
+    {
+      "relativePath": "lua/cpdd_translation/Data/Config/Ksbc/KsbcIgnore.lua",
+      "mappingKind": "override",
+      "sha256": "1849b67e4b30dd451921d17cf76e2cf326f7c4d4c80fd9eb12ac90e8b0482fb7",
+      "size": 415
+    },
+    {
+      "relativePath": "translation-overrides.lua",
+      "sha256": "085071013f5350c2ee77be6e864e767826316e9f1977ddf0e09c5f351c42d8fb",
+      "size": 5914
+    },
+    {
+      "relativePath": "lua/mods/cpdd_runtime_fixes/Init.lua",
+      "mappingKind": "runtime-core",
+      "sha256": "5a06e86da6adcbeaa10fd0c2c51707907357b29a4cf30afea9d81eff55584812",
+      "size": 120160
+    },
+    {
+      "relativePath": "lua/mods/cpdd_runtime_fixes/RuntimeTextCurated.lua",
+      "mappingKind": "runtime-curated-source",
+      "sha256": "f391472ac4ab0668cd5357751118d7e421cbbc63a8cc61d408b3e58844b3dd78",
+      "size": 6774
+    },
+    {
+      "relativePath": "lua/mods/cpdd_runtime_fixes/RuntimeStaticAudit.lua",
+      "mappingKind": "runtime-audit",
+      "sha256": "033a55c5e9c8333a7635b5548a96375dc536b933eab56f4781a914c24537511b",
+      "size": 7631
+    },
+    {
+      "relativePath": "lua/mods/cpdd_runtime_fixes/RuntimeIdCurated.lua",
+      "mappingKind": "runtime-curated-id",
+      "sha256": "efadd6205d89ee88ae001f91fd518c82217301fbea277b806a43c0e2c02fb17c",
+      "size": 57
+    },
+    {
+      "relativePath": "lua/mods/cpdd_runtime_fixes/RuntimeContextCurated.lua",
+      "mappingKind": "runtime-curated-context",
+      "sha256": "48c7dec0fae4be06230c1cb9259d9316507243b30fc7773496776ecf9e63c25c",
+      "size": 15030
+    },
+    {
+      "relativePath": "lua/mods/cpdd_runtime_fixes/RuntimeFullCorpusAudit.lua",
+      "mappingKind": "runtime-full-corpus-audit",
+      "sha256": "50257de91fc405333d349ff64d02d6c4b6b45e1da1f3abe6ed37b8de33125175",
+      "size": 9221
+    },
+    {
+      "relativePath": "lua/mods/cpdd_runtime_fixes/RuntimeQualityFixes.lua",
+      "mappingKind": "runtime-quality-fixes",
+      "sha256": "9cf8479c3d8ac869c97a97549742d32a90f065dbb8ad07f9919f458c9f8a487f",
+      "size": 200192
+    },
+    {
+      "relativePath": "lua/mods/cpdd_runtime_fixes/GameModuleCatalog.lua",
+      "mappingKind": "runtime-game-module-catalog",
+      "sha256": "7278db5f39f7dbe455519a2a50af85d0660f0fa073aeb0289591a07155428720",
+      "size": 2120528
+    },
+    {
+      "relativePath": "lua/mods/cpdd_runtime_fixes/RuntimeFullLiterals.lua",
+      "mappingKind": "runtime-full-literals",
+      "sha256": "df1d7aff313e16793b8b84fb9b425b4ed97a2b4b1af3cb4acf9b5f82da086ab1",
+      "size": 350123
+    },
+    {
+      "relativePath": "lua/mods/cpdd_runtime_fixes/RuntimeInheritedText.lua",
+      "mappingKind": "runtime-inherited-text",
+      "sha256": "fba0856e785cbc9d428488d4d50cfd30306badb84695030d6b2753a28d70d617",
+      "size": 250959
+    },
+    {
+      "relativePath": "lua/mods/cpdd_runtime_fixes/LanguageSourceIndex.lua",
+      "mappingKind": "runtime-language-source-index",
+      "sha256": "1b06baa1b237bacddf4891f9b34d66a06a5cd24a2518b4f96a1f2243d1128b71",
+      "size": 4502471
+    }
+  ],
+  "ownedFiles": [
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data.lua",
+      "sha256": "e5f010463690d281787b4cb2032da64b7b2a91cd87defb87d9c6594107a2d0a0",
+      "size": 4367881
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_achievement.lua",
+      "sha256": "8b97c9b90508e8aaf7a966f90589bb200059c5cf8ee6f8ba9c5ba09b60d0a616",
+      "size": 37320
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_asidetalk.lua",
+      "sha256": "c1423d9ee1bb0242ec0f74b34b9dcbbb09c847d64ab588e8cb345dfbe0db49c8",
+      "size": 159460
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_aura.lua",
+      "sha256": "86dad59c1ae0188c89ceb42cf922f4c4c9b167a3f06c5f1faca8339d6571833d",
+      "size": 881
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_beckland.lua",
+      "sha256": "3333ec5a14fd9d1278f467d5717c7f2075702645564c954a063e11f5a45c5dde",
+      "size": 17795
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_buffappear.lua",
+      "sha256": "b808508ca5075ca7112ea875811011e948adfd2184c6e48ee79137f947b3190d",
+      "size": 69111
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_buffdata.lua",
+      "sha256": "403f0d40a99e7aa07262ca589d5ae12f2bb42d1f9e2a411975dfd2eb53da11a4",
+      "size": 139088
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_debug.lua",
+      "sha256": "3aa4f58d684cea6dc226f801a2c3d8d60ed2e9645f3d7f789f9325fd7ce979ff",
+      "size": 94029
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_gossip.lua",
+      "sha256": "2a875bb5a3a0030236c8f8bfdaf07e0fbb99d546858a0a10365c8cea3249cb1f",
+      "size": 217383
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_guide.lua",
+      "sha256": "ebfcceb95792669c0119eb955767605a2fe611598d71b22fc827fa87d188fe87",
+      "size": 29572
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_itemgift.lua",
+      "sha256": "22ac65ce398de3b9dde5a42292a8f1573f31bf7a567c0656ccdf263cd022d584",
+      "size": 124474
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_itemlife.lua",
+      "sha256": "abdcc6039eb93df63f34f2b8c6f70777ab9f49849b2343877ce1d8c29f712dd6",
+      "size": 13537
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_itemnormal.lua",
+      "sha256": "c3760dde9f4adf38862c3613ccbf29a819a70f5b7c7dd6777a6cb0f4f174cc4a",
+      "size": 144885
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_itemoutlook.lua",
+      "sha256": "cdb9734bc21498e12f40a1b531340b5b5f7410375622740c2f335d3aafbe4913",
+      "size": 129962
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_itemtask.lua",
+      "sha256": "3802d8c9c231b6d12b6b203d32d1b3a7c2d811d8f7a18caf1850c8239df8a2aa",
+      "size": 7768
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_lettertext.lua",
+      "sha256": "b8e6590694ed49fb57213698dcc194a29f6a6d4dd1b2487befc291df9ce041d4",
+      "size": 161193
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_loading.lua",
+      "sha256": "4805569edea7eea27a3f2807497cc7ccc99857015e946b73db607e9b1c1dd8aa",
+      "size": 29734
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_main.lua",
+      "sha256": "cdb4d67eba1cdf8980bd285983cbfee5b25017427ad3e45348616e6dab3ea503",
+      "size": 2192
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_maintask.lua",
+      "sha256": "8a77486f767c0695839ae140c88c9b47c3cb32063c7a797103e5b1c24e37052c",
+      "size": 314801
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_manor.lua",
+      "sha256": "4327f8bb39f5f3c238668f2a38f6cadda7a0c2cdf519526aaf961a1123103768",
+      "size": 39419
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_monsterskill.lua",
+      "sha256": "6ffc0e1a6faf594861e0d8aecff937211fc5ab6843d86939166dac8cba2e5de4",
+      "size": 32368
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_newbietask.lua",
+      "sha256": "1bd601962c6bb28ee28a260b9ed31b142b2f39c72ffdf849d9aa2bf23d93873a",
+      "size": 9109
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_newspaper.lua",
+      "sha256": "be470530747ee46e2ae46efa347d4ec8d7a28e32457e9d4e1dcc3a42ab451aa2",
+      "size": 14780
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_nocamera.lua",
+      "sha256": "1067c4d3be6241c5ba2e7014a91e229ab38e725cd1366ed763927608e40c4118",
+      "size": 2432
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_oldtalk.lua",
+      "sha256": "754ba52009da879c1fd690979835e57cbb171546402b0f24b0a4f47dc4739827",
+      "size": 502477
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_othertalk.lua",
+      "sha256": "0b8bdbdc4b90c2df71d1fd4087a45207839744f499b7cbd63c154f37742677f1",
+      "size": 237729
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_sidetask.lua",
+      "sha256": "346f58a03ae67f58e56c52f067cd11fef426d7073f4db61611f5563b40728e21",
+      "size": 71659
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_skill.lua",
+      "sha256": "aadcb5cf09a7bb24f3c677eaf061d2383ea94ed3e6b3a84448bcc40aedd18ac2",
+      "size": 133471
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_skill1.lua",
+      "sha256": "d7245001a5b6d02ab84846cd110c29d3c74e1a7c368272309ef0a7744166729a",
+      "size": 29642
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_skill2.lua",
+      "sha256": "01e89ee887239ca00de150002b8c882a5847e37d82e2e915067c3812cc379ba2",
+      "size": 14116
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_skill3.lua",
+      "sha256": "47d3f0362cfa4bd8ca45398341266fe1b4d2b8c8b67a97bdf144ff941c0c9fef",
+      "size": 18088
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_spellfield.lua",
+      "sha256": "5afd635c569d13bb0cea6e2e8765b627549ae917db60ff809df0b6e9d0c3f9b3",
+      "size": 2321
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_talk.lua",
+      "sha256": "7ebbf38975dae30bb0722e5e6e66a214a0fa598204ef408ada5f9685cb1268ba",
+      "size": 40384
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_talkother.lua",
+      "sha256": "4f1a7f279067c370ecad97ce08e72047209f7b1e02733431c1faf14496c97783",
+      "size": 301889
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_tingen.lua",
+      "sha256": "7cb8e9aab7e1faebba76cc89bcb43c96760e659a464db60b713c0b2a252f08e7",
+      "size": 310627
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_tingentalk.lua",
+      "sha256": "6219e427dc206eb3925f9c64edef23d01280fc029efd444f12820dd7b74f6b07",
+      "size": 280749
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_traingame.lua",
+      "sha256": "3cc462b1ac658a9746f916b5f5ddbaafdd7f95122c4b315c28257bcb7c2fac16",
+      "size": 29098
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_trap.lua",
+      "sha256": "c25384333367227a839c2a06d407d9dfa648506b9add5836529f468c6e1f50f3",
+      "size": 330
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Config/StringConst/Language_zhs.lua",
+      "sha256": "cf81ed5116ac98eefa793ef315adcf63cf8c972417dcd24f874f7188fc125ce8",
+      "size": 118475
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Shared/language_zhs.lua",
+      "sha256": "15820afa272b9417a6b3360d9719217233fcc3ddb32772a9b841d556e071e02d",
+      "size": 1905
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Launch/I18n/zh.lua",
+      "sha256": "e03c93e584f02ee2bfb7bde1a49d2d3ab05198d5a6c9be029181d9c16728cbd8",
+      "size": 9959
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Gameplay/Debug/DebugConst.lua",
+      "sha256": "c212448afcffa2d8578cd1dd8a4370c983466eef5900d61acf708583389c1ec3",
+      "size": 1648
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Gameplay/LogicSystem/CreateRole/CreateRoleAnswer_Panel.lua",
+      "sha256": "ae3cf651b535dcab85a251b385534ac259ddf5dadcb3992e539a86a4b93c45ef",
+      "size": 9406
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/RoleCreateQandAData.lua",
+      "sha256": "57d533305cccecff410071c7f07752c6dfb7e47387a4db76632af7db40415960",
+      "size": 643
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Framework/Utils/LuaCommon/Managers/TableDataManager.lua",
+      "sha256": "492d6fa8625b4ab5d759239a7618fdfb63c998abc9e119c973ef720076a2ed2a",
+      "size": 11225
+    },
+    {
+      "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Config/Ksbc/KsbcIgnore.lua",
+      "sha256": "1849b67e4b30dd451921d17cf76e2cf326f7c4d4c80fd9eb12ac90e8b0482fb7",
+      "size": 415
+    },
+    {
+      "relativePath": "Saved/Mods/translation-overrides.lua",
+      "sha256": "085071013f5350c2ee77be6e864e767826316e9f1977ddf0e09c5f351c42d8fb",
+      "size": 5914
+    },
+    {
+      "relativePath": "Saved/Mods/bootstrap.lua",
+      "sha256": "579924f3f650a9ffef82820702850b18c2393390362d2a4ed6daa4f72905534f",
+      "size": 14822
+    },
+    {
+      "relativePath": "Saved/Mods/manifest.lua",
+      "sha256": "d2079a3ac487eba4a5d1d42f4ea3fdd1a3ab19d81168c1b6689d08ed826d4ecc",
+      "size": 91
+    },
+    {
+      "relativePath": "Saved/Mods/lua/mods/cpdd_runtime_fixes/Init.lua",
+      "sha256": "5a06e86da6adcbeaa10fd0c2c51707907357b29a4cf30afea9d81eff55584812",
+      "size": 120160
+    },
+    {
+      "relativePath": "Saved/Mods/lua/mods/cpdd_runtime_fixes/LanguageSourceIndex.lua",
+      "sha256": "1b06baa1b237bacddf4891f9b34d66a06a5cd24a2518b4f96a1f2243d1128b71",
+      "size": 4502471
+    },
+    {
+      "relativePath": "Binaries/Win64/lua/Launch/Base/CPDDTranslation.lua",
+      "sha256": "d224604d10be733ac8750b84eaafee20c52027d2d9e48892eb5b0e492156bac4",
+      "size": 536
+    },
+    {
+      "relativePath": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextCurated.lua",
+      "sha256": "f391472ac4ab0668cd5357751118d7e421cbbc63a8cc61d408b3e58844b3dd78",
+      "size": 6774
+    },
+    {
+      "relativePath": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeStaticAudit.lua",
+      "sha256": "033a55c5e9c8333a7635b5548a96375dc536b933eab56f4781a914c24537511b",
+      "size": 7631
+    },
+    {
+      "relativePath": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeIdCurated.lua",
+      "sha256": "efadd6205d89ee88ae001f91fd518c82217301fbea277b806a43c0e2c02fb17c",
+      "size": 57
+    },
+    {
+      "relativePath": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeContextCurated.lua",
+      "sha256": "48c7dec0fae4be06230c1cb9259d9316507243b30fc7773496776ecf9e63c25c",
+      "size": 15030
+    },
+    {
+      "relativePath": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeFullCorpusAudit.lua",
+      "sha256": "50257de91fc405333d349ff64d02d6c4b6b45e1da1f3abe6ed37b8de33125175",
+      "size": 9221
+    },
+    {
+      "relativePath": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeQualityFixes.lua",
+      "sha256": "9cf8479c3d8ac869c97a97549742d32a90f065dbb8ad07f9919f458c9f8a487f",
+      "size": 200192
+    },
+    {
+      "relativePath": "Saved/Mods/lua/mods/cpdd_runtime_fixes/GameModuleCatalog.lua",
+      "sha256": "7278db5f39f7dbe455519a2a50af85d0660f0fa073aeb0289591a07155428720",
+      "size": 2120528
+    },
+    {
+      "relativePath": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeFullLiterals.lua",
+      "sha256": "df1d7aff313e16793b8b84fb9b425b4ed97a2b4b1af3cb4acf9b5f82da086ab1",
+      "size": 350123
+    },
+    {
+      "relativePath": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeInheritedText.lua",
+      "sha256": "fba0856e785cbc9d428488d4d50cfd30306badb84695030d6b2753a28d70d617",
+      "size": 250959
+    }
+  ],
+  "languageOverlays": {
+    "kind": "StringDB_CN_reviewed_id_overlay",
+    "count": 38,
+    "fallback": "official Chinese source row"
+  },
+  "reviewedRuntime": {
+    "runtimeVersion": "1.0.0",
+    "curatedSource": "translations/runtime_curated.json",
+    "curatedEntries": 50,
+    "contextBoundEntries": 95,
+    "staticCoverageAudit": true
+  }
+}

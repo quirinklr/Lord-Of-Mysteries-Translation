@@ -1,0 +1,670 @@
+{
+  "format_version": 1,
+  "entries": [
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.243707022057e+14",
+      "field": "RawText",
+      "source": "Like {\"愚者\",\"世界\"}, can match \"Fool and World\", but cannot match \"World and Fool\"",
+      "translation": "Like {\"Fool\",\"World\"}, this can match \"Fool and World\", but cannot match \"World and Fool\""
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2437177590093e+14",
+      "field": "RawText",
+      "source": "{\"技能类型%i\"}",
+      "translation": "{\"Skill Type %i\"}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2437177590118e+14",
+      "field": "RawText",
+      "source": "{\"技能标签%i\"}",
+      "translation": "{\"Skill Tag %i\"}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2437177590144e+14",
+      "field": "RawText",
+      "source": "{\"技能ID%i\"}",
+      "translation": "{\"Skill ID %i\"}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2437177590221e+14",
+      "field": "RawText",
+      "source": "{\"Buff类型%i\"}",
+      "translation": "{\"Buff Type %i\"}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2437177590246e+14",
+      "field": "RawText",
+      "source": "{\"Buff标签%i\"}",
+      "translation": "{\"Buff Tag %i\"}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.245092148841e+14",
+      "field": "RawText",
+      "source": "{\"怪物ID%i\"}",
+      "translation": "{\"Monster ID %i\"}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2450921488435e+14",
+      "field": "RawText",
+      "source": "{\"场景ID%i\"}",
+      "translation": "{\"Scene ID %i\"}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2464665381555e+14",
+      "field": "RawText",
+      "source": "{\"槽位编号\"=\"技能ID\"}",
+      "translation": "{\"Slot Number\"=\"Skill ID\"}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2464665382195e+14",
+      "field": "RawText",
+      "source": "{\"X偏移cm\",\"Y偏移cm\",\"Z偏移cm\"}",
+      "translation": "{\"X Offset cm\",\"Y Offset cm\",\"Z Offset cm\"}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2464665382528e+14",
+      "field": "RawText",
+      "source": "{{\"第%i个子弹的X偏移cm\",\"第%i个子弹的Y偏移cm\",\"第%i个子弹的Z偏移cm\"}}",
+      "translation": "{{\"X Offset of Projectile %i cm\",\"Y Offset of Projectile %i cm\",\"Z Offset of Projectile %i cm\"}}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2464665382554e+14",
+      "field": "RawText",
+      "source": "{\"第%i个子弹的额外Yaw角\"}",
+      "translation": "{\"Extra Yaw Angle of Projectile %i\"}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2464665382579e+14",
+      "field": "RawText",
+      "source": "{\"第%i个子弹的额外Pitch角\"}",
+      "translation": "{\"Extra Pitch Angle of Projectile %i\"}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2464665382886e+14",
+      "field": "RawText",
+      "source": "{\"第%i批子弹发射时间点\"}",
+      "translation": "{\"Firing Time of Projectile Batch %i\"}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2464665383322e+14",
+      "field": "RawText",
+      "source": "{\"标签%i\"}",
+      "translation": "{\"Tag %i\"}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2464665383347e+14",
+      "field": "RawText",
+      "source": "{\"标签%i清除Buff数量\"}",
+      "translation": "{\"Number of Buffs Cleared by Tag %i\"}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2464665383373e+14",
+      "field": "RawText",
+      "source": "{\"类型%i\"}",
+      "translation": "{\"Type %i\"}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2464665383936e+14",
+      "field": "RawText",
+      "source": "{\"坐标X\",\"坐标Y\",\"坐标Z\"}",
+      "translation": "{\"X Coordinate\",\"Y Coordinate\",\"Z Coordinate\"}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.246466538583e+14",
+      "field": "RawText",
+      "source": "{{\"目标属性名(比如Hp)\",\"源属性名(比如MaxHp)\",\"属性恢复方式(0:按源属性的百分比；1:按绝对数值)\",\"数值(绝对的数值或者百分比值)\"}}",
+      "translation": "{{\"Target Attribute Name (e.g. Hp)\",\"Source Attribute Name (e.g. MaxHp)\",\"Attribute Recovery Method (0: percentage of source attribute; 1: absolute value)\",\"Value (absolute value or percentage)\"}}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2464665387853e+14",
+      "field": "RawText",
+      "source": "{\"权重%i\"}",
+      "translation": "{\"Weight %i\"}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.246466538921e+14",
+      "field": "RawText",
+      "source": "{{\"BuffID%i\",\"Buff层数%i\",\"Buff时长%i\"}}",
+      "translation": "{{\"Buff ID %i\",\"Buff Stacks %i\",\"Buff Duration %i\"}}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2464665390336e+14",
+      "field": "RawText",
+      "source": "{{\"子弹%iX偏移cm\",\"子弹%iY偏移cm\",\"子弹%iZ偏移cm\"}}",
+      "translation": "{{\"Projectile %i X Offset cm\",\"Projectile %i Y Offset cm\",\"Projectile %i Z Offset cm\"}}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2464665390362e+14",
+      "field": "RawText",
+      "source": "{\"子弹%i额外Yaw\"}",
+      "translation": "{\"Projectile %i Extra Yaw\"}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2464665390387e+14",
+      "field": "RawText",
+      "source": "{\"子弹%i额外Pitch\"}",
+      "translation": "{\"Projectile %i Extra Pitch\"}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2464665390592e+14",
+      "field": "RawText",
+      "source": "{\"子弹%i发射时间点\"}",
+      "translation": "{\"Projectile %i Firing Time\"}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2464665390771e+14",
+      "field": "RawText",
+      "source": "{\"Buff标签%i驱散数量\"}",
+      "translation": "{\"Dispel Count for Buff Tag %i\"}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2464665392666e+14",
+      "field": "RawText",
+      "source": "{\"旋转量1\",\"旋转量2\",\"旋转量3\"}",
+      "translation": "{\"Rotation Amount 1\",\"Rotation Amount 2\",\"Rotation Amount 3\"}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2464665393843e+14",
+      "field": "RawText",
+      "source": "{\"法术场ID%i\"}",
+      "translation": "{\"Spell Field ID %i\"}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2464665393894e+14",
+      "field": "RawText",
+      "source": "{\"%i号法术场的数量\"}",
+      "translation": "{\"Count of Spell Field %i\"}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2464665396557e+14",
+      "field": "RawText",
+      "source": "{\"第%i个位移终点\"}",
+      "translation": "{\"Displacement Endpoint %i\"}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.246466539689e+14",
+      "field": "RawText",
+      "source": "{\"第%i个法术场ID\"}",
+      "translation": "{\"Spell Field ID %i\"}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2464665398067e+14",
+      "field": "RawText",
+      "source": "{{\"第%i个属性名\",\"修改值（关于Hp的表达式）\"}}",
+      "translation": "{{\"Attribute Name %i\",\"Modified Value (Expression Relative to Hp)\"}}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2464665398451e+14",
+      "field": "RawText",
+      "source": "{\"第%i个属性名\"}",
+      "translation": "{\"Attribute Name %i\"}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2464665398963e+14",
+      "field": "RawText",
+      "source": "{\"可缺省\"}",
+      "translation": "{\"Optional\"}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2464665399066e+14",
+      "field": "RawText",
+      "source": "{\"默认为false。若为true，上面4个限制无效，但白名单生效\"}",
+      "translation": "{\"Defaults to false. If true, the four restrictions above are disabled, but the allowlist remains active\"}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2464665401984e+14",
+      "field": "RawText",
+      "source": "{\"陷阱ID%i\"}",
+      "translation": "{\"Trap ID %i\"}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2464665402035e+14",
+      "field": "RawText",
+      "source": "{\"%i号陷阱的数量\"}",
+      "translation": "{\"Count of Trap %i\"}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2464665402342e+14",
+      "field": "RawText",
+      "source": "{\"Mesh名称\"}",
+      "translation": "{\"Mesh Name\"}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2464665402445e+14",
+      "field": "RawText",
+      "source": "{{\"第%i个按键的资源名\",\"对应的技能ID\",\"对应的键盘按键（仅可填Q/W/E/R/A/S/D/F之一）\"}}",
+      "translation": "{{\"Resource Name for Key %i\",\"Corresponding Skill ID\",\"Corresponding Keyboard Key (must be one of Q/W/E/R/A/S/D/F)\"}}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2464665404749e+14",
+      "field": "RawText",
+      "source": "{{\"技能ID%i\",\"增加等级\"}}",
+      "translation": "{{\"Skill ID %i\",\"Levels Added\"}}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2464665404774e+14",
+      "field": "RawText",
+      "source": "{{\"技能Type（参看悬停注释）\",\"增加等级\"}}",
+      "translation": "{{\"Skill Type (see hover tooltip)\",\"Levels Added\"}}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2464665406746e+14",
+      "field": "RawText",
+      "source": "{{\"第%i个属性名\",\"修改值\"}}",
+      "translation": "{{\"Attribute Name %i\",\"Modified Value\"}}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2464665407437e+14",
+      "field": "RawText",
+      "source": "{缺省就是crazy表的数据；如果填写了会覆写表格中的数据}",
+      "translation": "{By default, uses data from the crazy table; if specified, overrides the data in the table}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data",
+      "key": "2.2464665408717e+14",
+      "field": "RawText",
+      "source": "{\"填0代表上当前装配的默认坐骑\"}",
+      "translation": "{\"Enter 0 to use the default mount from the current loadout\"}"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_aura",
+      "key": "2.0670952825344e+14",
+      "field": "RawText",
+      "source": "黄铜书_子嗣守护_炼金产物光环_地脉",
+      "translation": "Brass Book_Offspring Protection_Alchemy Product Aura_Ley Line"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_buffappear",
+      "key": "2.0698413774592e+14",
+      "field": "RawText",
+      "source": "粉碎灵魂",
+      "translation": "Soul Shatter"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_buffappear",
+      "key": "2.1110703788134e+14",
+      "field": "RawText",
+      "source": "副本69",
+      "translation": "Dungeon 69"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_buffappear",
+      "key": "2.111070378816e+14",
+      "field": "RawText",
+      "source": "副本69中R",
+      "translation": "R in Dungeon 69"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_buffappear",
+      "key": "2.1110703788186e+14",
+      "field": "RawText",
+      "source": "副本74中R",
+      "translation": "R in Dungeon 74"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_buffappear",
+      "key": "2.1110703790003e+14",
+      "field": "RawText",
+      "source": "愚者庇佑",
+      "translation": "The Fool's Blessing"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_buffappear",
+      "key": "2.1110703877632e+14",
+      "field": "RawText",
+      "source": "愚者的恩赐",
+      "translation": "The Fool's Boon"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_buffappear",
+      "key": "2.1110703877658e+14",
+      "field": "RawText",
+      "source": "愚者的赞许",
+      "translation": "The Fool's Approval"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_buffappear",
+      "key": "2.1110703877683e+14",
+      "field": "RawText",
+      "source": "愚者的注视",
+      "translation": "The Fool's Gaze"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_buffappear",
+      "key": "2.1110703877709e+14",
+      "field": "RawText",
+      "source": "愚者的叹息",
+      "translation": "The Fool's Sigh"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_buffappear",
+      "key": "2.1117575771034e+14",
+      "field": "RawText",
+      "source": "摇铃提示",
+      "translation": "Bell-Ringing Alert"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_buffdata",
+      "key": "2.0698413774592e+14",
+      "field": "RawText",
+      "source": "粉碎灵魂",
+      "translation": "Soul Shatter"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_buffdata",
+      "key": "2.1110703788134e+14",
+      "field": "RawText",
+      "source": "副本69",
+      "translation": "Dungeon 69"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_buffdata",
+      "key": "2.111070378816e+14",
+      "field": "RawText",
+      "source": "副本69中R",
+      "translation": "R in Dungeon 69"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_buffdata",
+      "key": "2.1110703790003e+14",
+      "field": "RawText",
+      "source": "愚者庇佑",
+      "translation": "The Fool's Blessing"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_buffdata",
+      "key": "2.1110703837312e+14",
+      "field": "RawText",
+      "source": "吞噬灵魂+标记Buff",
+      "translation": "Soul Devour + Mark Buff"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_buffdata",
+      "key": "2.1110703838925e+14",
+      "field": "RawText",
+      "source": "生命手杖：初次治疗标记",
+      "translation": "Staff of Life: Initial Heal Marker"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_buffdata",
+      "key": "2.1110703877658e+14",
+      "field": "RawText",
+      "source": "愚者的赞许",
+      "translation": "The Fool's Approval"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_buffdata",
+      "key": "2.1110703877683e+14",
+      "field": "RawText",
+      "source": "愚者的注视",
+      "translation": "The Fool's Gaze"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_buffdata",
+      "key": "2.1110703877709e+14",
+      "field": "RawText",
+      "source": "愚者的叹息",
+      "translation": "The Fool's Sigh"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_buffdata",
+      "key": "2.1110703916083e+14",
+      "field": "RawText",
+      "source": "愚者之礼-飞升计时",
+      "translation": "The Fool's Gift - Ascension Timer"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_debug",
+      "key": "2.0712184511667e+14",
+      "field": "RawText",
+      "source": "—技能_幻影_重剑_南北_逆时针",
+      "translation": "—Skill_Phantom_Greatsword_North-South_Counterclockwise"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_debug",
+      "key": "2.8594281655475e+14",
+      "field": "RawText",
+      "source": "通用-神降龙-变天",
+      "translation": "Generic-Divine Descent Dragon-Weather Change"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_debug",
+      "key": "2.860802554537e+14",
+      "field": "RawText",
+      "source": "封印物-蠕动的饥饿-脱手技能对怪",
+      "translation": "Sealed Artifact-Creeping Hunger-Hands-Off Skill Against Monsters"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_guide",
+      "key": "1.2402515322314e+15",
+      "field": "RawText",
+      "source": "使用技能<Highlight>共鸣</>，解除碎片封锁",
+      "translation": "Use the <Highlight>Resonance</> skill to unseal the fragment."
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_itemnormal",
+      "key": "1.2006688450506e+15",
+      "field": "RawText",
+      "source": "恭喜你，幸运儿。被祂眷顾，是荣幸，也是开始。愿你在愚者的注视与庇佑下，旅途愉快。",
+      "translation": "Congratulations, lucky one. To receive His favor is both an honor and a beginning. May your journey be a pleasant one under The Fool's watchful gaze and protection."
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_itemnormal",
+      "key": "6.1139906383846e+14",
+      "field": "RawText",
+      "source": "使用后获得称号:<Highlight>锈蚀飞轮（7天）</>",
+      "translation": "Use to obtain the title: <Highlight>Rusted Flywheel (7 Days)</>"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_itemoutlook",
+      "key": "4.5341352347597e+14",
+      "field": "RawText",
+      "source": "永不流动的黄昏凝结于发梢，哪怕此身沐浴落日，仍有唤醒黎明之志。",
+      "translation": "Dusk, forever stilled, congeals at the tips of the hair. Though this form bathes in the setting sun, it still bears the resolve to awaken the dawn."
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_itemoutlook",
+      "key": "4.5341352352e+14",
+      "field": "RawText",
+      "source": "伴随红月而来的疯狂呓语，小说家颂念了愚者的尊名，此时她尚且不知，这将是一场跨越家族和历史的旅行。",
+      "translation": "Amid the mad whispers that came with the crimson moon, the novelist recited the honorific name of The Fool. Little did she know then that this would become a journey spanning family and history."
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_itemoutlook",
+      "key": "6.1146751505024e+14",
+      "field": "RawText",
+      "source": "使用后可获得<Highlight>对应展台贴纸</>\n重复获取将自动分解为绑定苏勒×10000",
+      "translation": "Use to obtain the <Highlight>corresponding display stand sticker</>\nDuplicates will automatically be dismantled into Bound Sooles ×10,000"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_itemoutlook",
+      "key": "6.1146805149491e+14",
+      "field": "RawText",
+      "source": "<Highlight>工艺：</>探险工装\n铁轨延伸至远方，工具叮当作响，一场蒸汽与引擎声交织的铁道之旅自此展开。",
+      "translation": "<Highlight>Craft:</> Adventurer's Workwear\nThe rails stretch into the distance and tools ring out; thus begins a railway journey woven from steam and the roar of engines."
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_itemoutlook",
+      "key": "6.1146805152845e+14",
+      "field": "RawText",
+      "source": "<Highlight>工艺：</>压纹皮革\n永不流动的黄昏停滞于肩甲，哪怕此身沐浴落日，仍有唤醒黎明之志。",
+      "translation": "<Highlight>Craft:</> Embossed Leather\nDusk, forever stilled, lies frozen upon the pauldrons. Though this form bathes in the setting sun, it still bears the resolve to awaken the dawn."
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_itemoutlook",
+      "key": "6.1146805156864e+14",
+      "field": "RawText",
+      "source": "<Highlight>工艺：</>橄榄丝绒・金纹提花・刺绣长裙\n伴随红月而来的疯狂呓语，小说家颂念了愚者的尊名，此时她尚且不知，这将是一场跨越家族和历史的旅行。",
+      "translation": "<Highlight>Craft:</> Olive Velvet・Gold-Patterned Jacquard・Embroidered Gown\nAmid the mad whispers that came with the crimson moon, the novelist recited the honorific name of The Fool. Little did she know then that this would become a journey spanning family and history."
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_itemoutlook",
+      "key": "6.1146805164493e+14",
+      "field": "RawText",
+      "source": "<Highlight>工艺：</>童话礼服\n即便是误入的来客，也请遵从着装的礼仪。换上蓝黑菱格的俏皮礼服，加入怪诞奇妙的茶会。",
+      "translation": "<Highlight>Craft:</> Fairy-Tale Dress\nEven guests who wander in by mistake must observe the dress code. Slip into a playful blue-and-black diamond-patterned dress and join the strange and wondrous tea party."
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_itemoutlook",
+      "key": "6.114680516457e+14",
+      "field": "RawText",
+      "source": "<Highlight>工艺：</>精工银链\n即便是误入的来客，也请遵从着装的礼仪。换上蓝黑菱格的俏皮礼服，加入怪诞奇妙的茶会。",
+      "translation": "<Highlight>Craft:</> Finely Wrought Silver Chain\nEven guests who wander in by mistake must observe the dress code. Slip into a playful blue-and-black diamond-patterned dress and join the strange and wondrous tea party."
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_itemoutlook",
+      "key": "6.1146805166234e+14",
+      "field": "RawText",
+      "source": "<Highlight>工艺：</>蓝白蕾丝・俏皮兔耳・童话礼服\n即便是误入的来客，也请遵从着装的礼仪。换上蓝白蕾丝的俏皮礼服，加入怪诞奇妙的茶会。",
+      "translation": "<Highlight>Craft:</> Blue-and-White Lace・Playful Bunny Ears・Fairy-Tale Dress\nEven guests who wander in by mistake must observe the dress code. Slip into a playful blue-and-white lace dress and join the strange and wondrous tea party."
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_itemoutlook",
+      "key": "6.1146805166259e+14",
+      "field": "RawText",
+      "source": "即便是误入的来客，也请遵从着装的礼仪。换上蓝白蕾丝的俏皮礼服，加入怪诞奇妙的茶会。",
+      "translation": "Even guests who wander in by mistake must observe the dress code. Slip into a playful blue-and-white lace dress and join the strange and wondrous tea party."
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_itemoutlook",
+      "key": "6.1146805166285e+14",
+      "field": "RawText",
+      "source": "<Highlight>工艺：</>蓝白蕾丝・童话礼服\n即便是误入的来客，也请遵从着装的礼仪。换上蓝白蕾丝的俏皮礼服，加入怪诞奇妙的茶会。",
+      "translation": "<Highlight>Craft:</> Blue-and-White Lace・Fairy-Tale Dress\nEven guests who wander in by mistake must observe the dress code. Slip into a playful blue-and-white lace dress and join the strange and wondrous tea party."
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_itemoutlook",
+      "key": "6.1146805166362e+14",
+      "field": "RawText",
+      "source": "<Highlight>工艺：</>蓝白蕾丝\n即便是误入的来客，也请遵从着装的礼仪。换上蓝白蕾丝的俏皮礼服，加入怪诞奇妙的茶会。",
+      "translation": "<Highlight>Craft:</> Blue-and-White Lace\nEven guests who wander in by mistake must observe the dress code. Slip into a playful blue-and-white lace dress and join the strange and wondrous tea party."
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_itemoutlook",
+      "key": "6.1146805166413e+14",
+      "field": "RawText",
+      "source": "<Highlight>工艺：</>蓝白蕾丝・俏皮兔耳\n即便是误入的来客，也请遵从着装的礼仪。换上蓝白蕾丝的俏皮礼服，加入怪诞奇妙的茶会。",
+      "translation": "<Highlight>Craft:</> Blue-and-White Lace・Playful Bunny Ears\nEven guests who wander in by mistake must observe the dress code. Slip into a playful blue-and-white lace dress and join the strange and wondrous tea party."
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_itemoutlook",
+      "key": "6.1146805168614e+14",
+      "field": "RawText",
+      "source": "<Highlight>工艺：</>亚麻棉纺・田园便服\n于莫尔斯小镇的金色麦浪中，拾取一段曾经的温柔时光。",
+      "translation": "<Highlight>Craft:</> Linen-Cotton Weave・Country Casualwear\nAmid the golden waves of wheat in Morse Town, gather up a fragment of bygone tenderness."
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_itemtask",
+      "key": "6.1160683261901e+14",
+      "field": "RawText",
+      "source": "魔药",
+      "translation": "Potion"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_manor",
+      "key": "6.6912637684634e+14",
+      "field": "RawText",
+      "source": "脚步声在木质阶梯上更显清亮，连接不同楼层。",
+      "translation": "Footsteps ring crisp and clear upon the wooden staircase linking the different floors."
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_newbietask",
+      "key": "7.9185560417331e+14",
+      "field": "RawText",
+      "source": "自由装修城堡，参与各种闲趣活动，享受疯狂世界中的片刻宁静。",
+      "translation": "Decorate the castle as you please, take part in all manner of leisurely activities, and savor a moment of peace in this mad world."
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_oldtalk",
+      "key": "1.2403202516076e+15",
+      "field": "RawText",
+      "source": "是",
+      "translation": "Yes"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_skill",
+      "key": "2.8594335341286e+14",
+      "field": "RawText",
+      "source": "调动对知识的感知力，将自身钻研的格斗技巧拆解、融合，通过体验起手招式，深入武学精髓。当再度攻击时，将会留下一道源自知识的格斗残影。\n吸收残影后，可使武力加3，直觉加1。",
+      "translation": "Draw upon your perception of knowledge to break down and merge the combat techniques you have studied. Experience their opening moves to delve into the essence of martial arts. Your next attack leaves behind a combat afterimage born of knowledge.\nAbsorbing the afterimage grants +3 Might and +1 Intuition."
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_skill3",
+      "key": "2.8621823124864e+14",
+      "field": "RawText",
+      "source": "在目标位置召唤窥秘之眼链接目标，每0.5秒对目标造成*d伤害并使目标减速25%。链接最多持续4秒，目标远离窥秘之眼一定距离后链接会提前断开。",
+      "translation": "Summon an Eye of Mystery at the target location to link to the target, dealing *d damage every 0.5 seconds and slowing the target by 25%. The link lasts up to 4 seconds and breaks early if the target moves too far from the Eye of Mystery."
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_talk",
+      "key": "8.4882405042278e+14",
+      "field": "RawText",
+      "source": "我？",
+      "translation": "Me?"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_talkother",
+      "key": "1.1434928982436e+15",
+      "field": "RawText",
+      "source": "扮演·占卜家",
+      "translation": "Acting · Seer"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_traingame",
+      "key": "1.2186722742088e+15",
+      "field": "RawText",
+      "source": "如果下一站<LightHighlight>是【食铺】</>，当前持有的金色物品数量均增加<LightHighlight>60%</>",
+      "translation": "If the next stop <LightHighlight>is [Food Stall]</>, increase the quantity of all golden items currently held by <LightHighlight>60%</>"
+    },
+    {
+      "table": "Data.Excel.LanguageData.StringDB_CN_Data_trap",
+      "key": "2.0684723559757e+14",
+      "field": "RawText",
+      "source": "穿越边界时，有*d**的基础概率被施加*f秒<HyperLink stylename=\"M_Link\" u=\"7\">禁锢</>",
+      "translation": "When crossing the boundary, there is a base *d** chance to be <HyperLink stylename=\"M_Link\" u=\"7\">Immobilized</> for *f seconds"
+    }
+  ]
+}

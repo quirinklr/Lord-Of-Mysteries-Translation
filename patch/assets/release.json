@@ -1,0 +1,416 @@
+{
+  "display_version": "1.0.0",
+  "external_bridge": {
+    "alias_count": 7,
+    "files": [
+      {
+        "payload": "payload/bridge/game/Binaries/Win64/lua/Launch/Base/CPDDTranslation.lua",
+        "relative_path": "Binaries/Win64/lua/Launch/Base/CPDDTranslation.lua",
+        "sha256": "d224604d10be733ac8750b84eaafee20c52027d2d9e48892eb5b0e492156bac4",
+        "size": 536
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/bootstrap.lua",
+        "relative_path": "Saved/Mods/bootstrap.lua",
+        "sha256": "d1c870fd0c232d6c5652e43b7cb8f3b65abc5515fba1df6f7808d3826fd8fa24",
+        "size": 14746
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Config/Ksbc/KsbcIgnore.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Config/Ksbc/KsbcIgnore.lua",
+        "sha256": "1849b67e4b30dd451921d17cf76e2cf326f7c4d4c80fd9eb12ac90e8b0482fb7",
+        "size": 415
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Config/StringConst/Language_zhs.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Config/StringConst/Language_zhs.lua",
+        "sha256": "cf81ed5116ac98eefa793ef315adcf63cf8c972417dcd24f874f7188fc125ce8",
+        "size": 118475
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data.lua",
+        "sha256": "e5f010463690d281787b4cb2032da64b7b2a91cd87defb87d9c6594107a2d0a0",
+        "size": 4367881
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_achievement.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_achievement.lua",
+        "sha256": "8b97c9b90508e8aaf7a966f90589bb200059c5cf8ee6f8ba9c5ba09b60d0a616",
+        "size": 37320
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_asidetalk.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_asidetalk.lua",
+        "sha256": "c1423d9ee1bb0242ec0f74b34b9dcbbb09c847d64ab588e8cb345dfbe0db49c8",
+        "size": 159460
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_aura.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_aura.lua",
+        "sha256": "86dad59c1ae0188c89ceb42cf922f4c4c9b167a3f06c5f1faca8339d6571833d",
+        "size": 881
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_beckland.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_beckland.lua",
+        "sha256": "3333ec5a14fd9d1278f467d5717c7f2075702645564c954a063e11f5a45c5dde",
+        "size": 17795
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_buffappear.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_buffappear.lua",
+        "sha256": "b808508ca5075ca7112ea875811011e948adfd2184c6e48ee79137f947b3190d",
+        "size": 69111
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_buffdata.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_buffdata.lua",
+        "sha256": "403f0d40a99e7aa07262ca589d5ae12f2bb42d1f9e2a411975dfd2eb53da11a4",
+        "size": 139088
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_debug.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_debug.lua",
+        "sha256": "3aa4f58d684cea6dc226f801a2c3d8d60ed2e9645f3d7f789f9325fd7ce979ff",
+        "size": 94029
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_gossip.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_gossip.lua",
+        "sha256": "2a875bb5a3a0030236c8f8bfdaf07e0fbb99d546858a0a10365c8cea3249cb1f",
+        "size": 217383
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_guide.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_guide.lua",
+        "sha256": "ebfcceb95792669c0119eb955767605a2fe611598d71b22fc827fa87d188fe87",
+        "size": 29572
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_itemgift.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_itemgift.lua",
+        "sha256": "22ac65ce398de3b9dde5a42292a8f1573f31bf7a567c0656ccdf263cd022d584",
+        "size": 124474
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_itemlife.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_itemlife.lua",
+        "sha256": "abdcc6039eb93df63f34f2b8c6f70777ab9f49849b2343877ce1d8c29f712dd6",
+        "size": 13537
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_itemnormal.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_itemnormal.lua",
+        "sha256": "c3760dde9f4adf38862c3613ccbf29a819a70f5b7c7dd6777a6cb0f4f174cc4a",
+        "size": 144885
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_itemoutlook.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_itemoutlook.lua",
+        "sha256": "cdb9734bc21498e12f40a1b531340b5b5f7410375622740c2f335d3aafbe4913",
+        "size": 129962
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_itemtask.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_itemtask.lua",
+        "sha256": "3802d8c9c231b6d12b6b203d32d1b3a7c2d811d8f7a18caf1850c8239df8a2aa",
+        "size": 7768
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_lettertext.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_lettertext.lua",
+        "sha256": "b8e6590694ed49fb57213698dcc194a29f6a6d4dd1b2487befc291df9ce041d4",
+        "size": 161193
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_loading.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_loading.lua",
+        "sha256": "4805569edea7eea27a3f2807497cc7ccc99857015e946b73db607e9b1c1dd8aa",
+        "size": 29734
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_main.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_main.lua",
+        "sha256": "cdb4d67eba1cdf8980bd285983cbfee5b25017427ad3e45348616e6dab3ea503",
+        "size": 2192
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_maintask.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_maintask.lua",
+        "sha256": "8a77486f767c0695839ae140c88c9b47c3cb32063c7a797103e5b1c24e37052c",
+        "size": 314801
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_manor.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_manor.lua",
+        "sha256": "4327f8bb39f5f3c238668f2a38f6cadda7a0c2cdf519526aaf961a1123103768",
+        "size": 39419
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_monsterskill.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_monsterskill.lua",
+        "sha256": "6ffc0e1a6faf594861e0d8aecff937211fc5ab6843d86939166dac8cba2e5de4",
+        "size": 32368
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_newbietask.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_newbietask.lua",
+        "sha256": "1bd601962c6bb28ee28a260b9ed31b142b2f39c72ffdf849d9aa2bf23d93873a",
+        "size": 9109
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_newspaper.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_newspaper.lua",
+        "sha256": "be470530747ee46e2ae46efa347d4ec8d7a28e32457e9d4e1dcc3a42ab451aa2",
+        "size": 14780
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_nocamera.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_nocamera.lua",
+        "sha256": "1067c4d3be6241c5ba2e7014a91e229ab38e725cd1366ed763927608e40c4118",
+        "size": 2432
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_oldtalk.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_oldtalk.lua",
+        "sha256": "754ba52009da879c1fd690979835e57cbb171546402b0f24b0a4f47dc4739827",
+        "size": 502477
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_othertalk.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_othertalk.lua",
+        "sha256": "0b8bdbdc4b90c2df71d1fd4087a45207839744f499b7cbd63c154f37742677f1",
+        "size": 237729
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_sidetask.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_sidetask.lua",
+        "sha256": "346f58a03ae67f58e56c52f067cd11fef426d7073f4db61611f5563b40728e21",
+        "size": 71659
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_skill.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_skill.lua",
+        "sha256": "aadcb5cf09a7bb24f3c677eaf061d2383ea94ed3e6b3a84448bcc40aedd18ac2",
+        "size": 133471
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_skill1.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_skill1.lua",
+        "sha256": "d7245001a5b6d02ab84846cd110c29d3c74e1a7c368272309ef0a7744166729a",
+        "size": 29642
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_skill2.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_skill2.lua",
+        "sha256": "01e89ee887239ca00de150002b8c882a5847e37d82e2e915067c3812cc379ba2",
+        "size": 14116
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_skill3.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_skill3.lua",
+        "sha256": "47d3f0362cfa4bd8ca45398341266fe1b4d2b8c8b67a97bdf144ff941c0c9fef",
+        "size": 18088
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_spellfield.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_spellfield.lua",
+        "sha256": "5afd635c569d13bb0cea6e2e8765b627549ae917db60ff809df0b6e9d0c3f9b3",
+        "size": 2321
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_talk.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_talk.lua",
+        "sha256": "7ebbf38975dae30bb0722e5e6e66a214a0fa598204ef408ada5f9685cb1268ba",
+        "size": 40384
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_talkother.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_talkother.lua",
+        "sha256": "4f1a7f279067c370ecad97ce08e72047209f7b1e02733431c1faf14496c97783",
+        "size": 301889
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_tingen.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_tingen.lua",
+        "sha256": "7cb8e9aab7e1faebba76cc89bcb43c96760e659a464db60b713c0b2a252f08e7",
+        "size": 310627
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_tingentalk.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_tingentalk.lua",
+        "sha256": "6219e427dc206eb3925f9c64edef23d01280fc029efd444f12820dd7b74f6b07",
+        "size": 280749
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_traingame.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_traingame.lua",
+        "sha256": "3cc462b1ac658a9746f916b5f5ddbaafdd7f95122c4b315c28257bcb7c2fac16",
+        "size": 29098
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_trap.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_trap.lua",
+        "sha256": "c25384333367227a839c2a06d407d9dfa648506b9add5836529f468c6e1f50f3",
+        "size": 330
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/RoleCreateQandAData.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/RoleCreateQandAData.lua",
+        "sha256": "57d533305cccecff410071c7f07752c6dfb7e47387a4db76632af7db40415960",
+        "size": 643
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Framework/Utils/LuaCommon/Managers/TableDataManager.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Framework/Utils/LuaCommon/Managers/TableDataManager.lua",
+        "sha256": "492d6fa8625b4ab5d759239a7618fdfb63c998abc9e119c973ef720076a2ed2a",
+        "size": 11225
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Gameplay/Debug/DebugConst.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Gameplay/Debug/DebugConst.lua",
+        "sha256": "c212448afcffa2d8578cd1dd8a4370c983466eef5900d61acf708583389c1ec3",
+        "size": 1648
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Gameplay/LogicSystem/CreateRole/CreateRoleAnswer_Panel.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Gameplay/LogicSystem/CreateRole/CreateRoleAnswer_Panel.lua",
+        "sha256": "ae3cf651b535dcab85a251b385534ac259ddf5dadcb3992e539a86a4b93c45ef",
+        "size": 9406
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Launch/I18n/zh.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Launch/I18n/zh.lua",
+        "sha256": "e03c93e584f02ee2bfb7bde1a49d2d3ab05198d5a6c9be029181d9c16728cbd8",
+        "size": 9959
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Shared/language_zhs.lua",
+        "relative_path": "Saved/Mods/lua/cpdd_translation/Shared/language_zhs.lua",
+        "sha256": "15820afa272b9417a6b3360d9719217233fcc3ddb32772a9b841d556e071e02d",
+        "size": 1905
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/GameModuleCatalog.lua",
+        "relative_path": "Saved/Mods/lua/mods/cpdd_runtime_fixes/GameModuleCatalog.lua",
+        "sha256": "7278db5f39f7dbe455519a2a50af85d0660f0fa073aeb0289591a07155428720",
+        "size": 2120528
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/Init.lua",
+        "relative_path": "Saved/Mods/lua/mods/cpdd_runtime_fixes/Init.lua",
+        "sha256": "5a06e86da6adcbeaa10fd0c2c51707907357b29a4cf30afea9d81eff55584812",
+        "size": 120160
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/LanguageSourceIndex.lua",
+        "relative_path": "Saved/Mods/lua/mods/cpdd_runtime_fixes/LanguageSourceIndex.lua",
+        "sha256": "1b06baa1b237bacddf4891f9b34d66a06a5cd24a2518b4f96a1f2243d1128b71",
+        "size": 4502471
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeContextCurated.lua",
+        "relative_path": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeContextCurated.lua",
+        "sha256": "48c7dec0fae4be06230c1cb9259d9316507243b30fc7773496776ecf9e63c25c",
+        "size": 15030
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeFullCorpusAudit.lua",
+        "relative_path": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeFullCorpusAudit.lua",
+        "sha256": "50257de91fc405333d349ff64d02d6c4b6b45e1da1f3abe6ed37b8de33125175",
+        "size": 9221
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeFullLiterals.lua",
+        "relative_path": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeFullLiterals.lua",
+        "sha256": "df1d7aff313e16793b8b84fb9b425b4ed97a2b4b1af3cb4acf9b5f82da086ab1",
+        "size": 350123
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeIdCurated.lua",
+        "relative_path": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeIdCurated.lua",
+        "sha256": "efadd6205d89ee88ae001f91fd518c82217301fbea277b806a43c0e2c02fb17c",
+        "size": 57
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeInheritedText.lua",
+        "relative_path": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeInheritedText.lua",
+        "sha256": "fba0856e785cbc9d428488d4d50cfd30306badb84695030d6b2753a28d70d617",
+        "size": 250959
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeQualityFixes.lua",
+        "relative_path": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeQualityFixes.lua",
+        "sha256": "9cf8479c3d8ac869c97a97549742d32a90f065dbb8ad07f9919f458c9f8a487f",
+        "size": 200192
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeStaticAudit.lua",
+        "relative_path": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeStaticAudit.lua",
+        "sha256": "033a55c5e9c8333a7635b5548a96375dc536b933eab56f4781a914c24537511b",
+        "size": 7631
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextCurated.lua",
+        "relative_path": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextCurated.lua",
+        "sha256": "f391472ac4ab0668cd5357751118d7e421cbbc63a8cc61d408b3e58844b3dd78",
+        "size": 6774
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/manifest.lua",
+        "relative_path": "Saved/Mods/manifest.lua",
+        "sha256": "d2079a3ac487eba4a5d1d42f4ea3fdd1a3ab19d81168c1b6689d08ed826d4ecc",
+        "size": 91
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/translation-overrides.lua",
+        "relative_path": "Saved/Mods/translation-overrides.lua",
+        "sha256": "f8f4aa09bc3c968d3e8fd0de86886608554af8aa5417edd85b0ff668df8309cd",
+        "size": 5770
+      },
+      {
+        "payload": "payload/bridge/game/Saved/Mods/translation-overrides.state.json",
+        "relative_path": "Saved/Mods/translation-overrides.state.json",
+        "sha256": "e5795dd83a47b55a335b21bcba9c17b96e4efc6dedc8e062d582ce6cb56b0bbc",
+        "size": 28042
+      }
+    ],
+    "launch_block": {
+      "clean_sha256": "566e72d677fc974ab172eb71a34cdc6623f1e0dd19d978de812a76a1820b7fc7",
+      "installed_pak_sha256": "1712e55db2b9b4b6c8ff86e5a11b7ac56b9602951a08cbdb8c5face2687c6bd1",
+      "installed_pak_size": 446910011,
+      "installed_sha256": "c031726986e09358bb18ff8a2b8ee5f0b4e65ce8ae8331eed2d7575c80b7efa9",
+      "offset": 427225161,
+      "pak_relative_path": "Content/Paks/pakchunk0-Windows.pak",
+      "payload": "payload/bridge/LaunchInstance.native-bridge.padded.oodle",
+      "sha256": "c031726986e09358bb18ff8a2b8ee5f0b4e65ce8ae8331eed2d7575c80b7efa9",
+      "size": 4660,
+      "storage": "original one-block Oodle route; native LoM LuaJIT 0x82"
+    },
+    "loader_version": "0.4.0",
+    "overlay_count": 38,
+    "payload_count": 46,
+    "runtime_version": "1.0.0",
+    "translation_delivery": "official-cn-modules-with-reviewed-id-overlays-and-curated-runtime",
+    "translation_release_id": "lotm-english-data-20260823"
+  },
+  "format_version": 1,
+  "install_ready": true,
+  "patch_method": "bootstrap_only_external_translation_overlays",
+  "release_blocker": "",
+  "release_id": "lotm-english-1.0.0",
+  "supported_base_paks": [
+    {
+      "name": "BiliBili C7 1.2018737.2044036",
+      "sha256": "abbadeeaec029807c6547d7faa9788f38da0099e8ea05ee20ff0167c0f5686d8",
+      "size": 446910011
+    }
+  ],
+  "touches_game_cache": false,
+  "touches_iostore": false,
+  "translated_pak_entries": 0,
+  "translation_release_id": "lotm-english-data-20260823",
+  "translation_storage": "C7/Saved/Mods",
+  "uses_memory_injection": false
+}

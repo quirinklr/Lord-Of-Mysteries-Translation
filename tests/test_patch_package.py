@@ -1,0 +1,89 @@
+from __future__ import annotations
+
+import hashlib
+import json
+import subprocess
+import unittest
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parents[1]
+PATCH = ROOT / "patch"
+ASSETS = PATCH / "assets"
+RELEASE = ASSETS / "release.json"
+
+
+def sha256(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as stream:
+        for chunk in iter(lambda: stream.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
+class PatchPackageTests(unittest.TestCase):
+    def test_manifest_files_exist_and_match(self) -> None:
+        release = json.loads(RELEASE.read_text(encoding="utf-8"))
+        files = release["external_bridge"]["files"]
+        self.assertEqual(len(files), len({entry["relative_path"].casefold() for entry in files}))
+        for entry in files:
+            path = ASSETS / entry["payload"]
+            self.assertTrue(path.is_file(), path)
+            self.assertEqual(entry["size"], path.stat().st_size, path)
+            self.assertEqual(entry["sha256"], sha256(path), path)
+
+    def test_runtime_audit_is_packaged(self) -> None:
+        release = json.loads(RELEASE.read_text(encoding="utf-8"))
+        self.assertEqual("1.0.0", release["external_bridge"]["runtime_version"])
+        paths = {entry["relative_path"] for entry in release["external_bridge"]["files"]}
+        self.assertIn("Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextCurated.lua", paths)
+        self.assertIn("Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeIdCurated.lua", paths)
+        self.assertIn("Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeContextCurated.lua", paths)
+        self.assertIn("Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeStaticAudit.lua", paths)
+        self.assertIn("Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeFullCorpusAudit.lua", paths)
+        self.assertIn("Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeQualityFixes.lua", paths)
+        self.assertIn("Saved/Mods/lua/mods/cpdd_runtime_fixes/GameModuleCatalog.lua", paths)
+
+    def test_powershell_manager_parses(self) -> None:
+        manager = PATCH / "Manage-LOTM-English.ps1"
+        command = (
+            "$e=$null;$t=$null;"
+            f"[System.Management.Automation.Language.Parser]::ParseFile('{manager}',[ref]$t,[ref]$e)|Out-Null;"
+            "if($e.Count){$e|ForEach-Object{$_.Message};exit 1}"
+        )
+        subprocess.run(["powershell.exe", "-NoProfile", "-Command", command], check=True)
+
+    def test_manager_rejects_path_traversal(self) -> None:
+        manager = PATCH / "Manage-LOTM-English.ps1"
+        command = (
+            f". '{manager}';"
+            "try { Resolve-SafeChild 'C:\\safe-root' '..\\escape'; exit 1 } "
+            "catch { exit 0 }"
+        )
+        subprocess.run(["powershell.exe", "-NoProfile", "-Command", command], check=True)
+
+    def test_install_has_transactional_rollback(self) -> None:
+        manager = (PATCH / "Manage-LOTM-English.ps1").read_text(encoding="utf-8")
+        self.assertIn("$changedFiles", manager)
+        self.assertIn("PAK rollback failed", manager)
+        self.assertIn("File rollback failed", manager)
+
+    def test_release_is_portable(self) -> None:
+        manager = (PATCH / "Manage-LOTM-English.ps1").read_text(encoding="utf-8")
+        self.assertNotIn("C:\\Users\\quiri", manager)
+        self.assertIn("Resolve-GameRoot", manager)
+        for name in ("Install.cmd", "Update.cmd", "Verify.cmd", "Uninstall.cmd"):
+            self.assertTrue((PATCH / name).is_file(), name)
+
+    def test_release_builder_parses(self) -> None:
+        builder = ROOT / "tools" / "build_release.ps1"
+        command = (
+            "$e=$null;$t=$null;"
+            f"[System.Management.Automation.Language.Parser]::ParseFile('{builder}',[ref]$t,[ref]$e)|Out-Null;"
+            "if($e.Count){$e|ForEach-Object{$_.Message};exit 1}"
+        )
+        subprocess.run(["powershell.exe", "-NoProfile", "-Command", command], check=True)
+
+
+if __name__ == "__main__":
+    unittest.main()
