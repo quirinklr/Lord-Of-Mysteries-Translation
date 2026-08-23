@@ -34,7 +34,7 @@ class PatchPackageTests(unittest.TestCase):
 
     def test_runtime_audit_is_packaged(self) -> None:
         release = json.loads(RELEASE.read_text(encoding="utf-8"))
-        self.assertEqual("1.0.1", release["external_bridge"]["runtime_version"])
+        self.assertEqual("1.0.2", release["external_bridge"]["runtime_version"])
         paths = {entry["relative_path"] for entry in release["external_bridge"]["files"]}
         self.assertIn("Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextCurated.lua", paths)
         self.assertIn("Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeIdCurated.lua", paths)
@@ -67,6 +67,15 @@ class PatchPackageTests(unittest.TestCase):
         self.assertIn("$changedFiles", manager)
         self.assertIn("PAK rollback failed", manager)
         self.assertIn("File rollback failed", manager)
+
+    def test_installer_reports_progress(self) -> None:
+        manager = (PATCH / "Manage-LOTM-English.ps1").read_text(encoding="utf-8")
+        self.assertIn("function Write-InstallStage", manager)
+        self.assertIn("Validating release files", manager)
+        self.assertIn("Locating and checking the game", manager)
+        self.assertIn("Creating the recovery backup", manager)
+        self.assertIn("Installing $(@($Release.external_bridge.files).Count) translation files", manager)
+        self.assertIn("Applying and verifying the PAK bridge", manager)
 
     def test_release_is_portable(self) -> None:
         manager = (PATCH / "Manage-LOTM-English.ps1").read_text(encoding="utf-8")
