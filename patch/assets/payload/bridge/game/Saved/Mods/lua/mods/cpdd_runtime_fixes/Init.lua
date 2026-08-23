@@ -1,6 +1,6 @@
 local Loader = assert(LOMModLoader, "LOMModLoader is required")
 
-local VERSION = "1.0.1"
+local VERSION = "1.0.2"
 local STATIC_AUDIT_ID = "build-2044036-all-modules-20260823-release"
 local CIRCUIT_BREAKER_TIPS_ID = 6427242
 local CIRCUIT_BREAKER_TEXT = "If the server is too crowded, it will enter a circuit-breaker state, temporarily preventing new accounts that have not created a character on the current server from queuing. Please choose another server that is not under a circuit-breaker to experience the game."

@@ -14,6 +14,22 @@ $ReleasePath = Join-Path $AssetsRoot 'release.json'
 $BackupRelative = 'Saved\Mods\.lotm-english-safe-patch-backup'
 $StateFileName = 'state.json'
 
+function Write-InstallerHeader([string]$Version) {
+    Write-Host ''
+    Write-Host '  LOTM English Patch' -ForegroundColor White
+    Write-Host "  Version $Version" -ForegroundColor DarkGray
+    Write-Host '  ------------------' -ForegroundColor DarkGray
+    Write-Host ''
+}
+
+function Write-InstallStage([int]$Current, [int]$Total, [string]$Message) {
+    $width = 20
+    $filled = [Math]::Floor($width * $Current / $Total)
+    $bar = ('#' * $filled) + ('-' * ($width - $filled))
+    $percent = [Math]::Floor(100 * $Current / $Total)
+    Write-Host ("  [{0}] {1,3}%  {2}" -f $bar, $percent, $Message)
+}
+
 function Get-FileSha256Lower([string]$Path) {
     $sha = [System.Security.Cryptography.SHA256]::Create()
     $stream = [System.IO.File]::OpenRead($Path)
@@ -237,8 +253,11 @@ function Get-SupportedCleanHash([object]$Release, [int64]$Size) {
 }
 
 function Install-Patch([object]$Release) {
+    Write-InstallerHeader ([string]$Release.display_version)
+    Write-InstallStage 1 5 'Validating release files'
     Assert-GameClosed
     Assert-Package $Release
+    Write-InstallStage 2 5 'Locating and checking the game'
     $game = Get-GameInfo $Release
     $cleanHash = Get-SupportedCleanHash $Release $game.PakSize
     $installedHash = ([string]$game.Block.installed_pak_sha256).ToLowerInvariant()
@@ -274,6 +293,9 @@ function Install-Patch([object]$Release) {
                 (Get-FileSha256Lower $savedOriginal) -ne ([string]$game.Block.clean_sha256).ToLowerInvariant()) {
                 throw 'Cannot resume: original launch-block backup is missing or invalid.'
             }
+            Write-InstallStage 3 5 'Checking the recovery backup'
+            Write-InstallStage 4 5 'Checking translation files'
+            Write-InstallStage 5 5 'Applying and verifying the PAK bridge'
             $resumeReplacementPath = Resolve-SafeChild $AssetsRoot ([string]$game.Block.payload)
             $resumeFullBackup = Install-PakBridge $game ([System.IO.File]::ReadAllBytes($resumeReplacementPath)) $installedHash
             $resumedPakHash = Get-FileSha256Lower $game.Pak
@@ -292,6 +314,7 @@ function Install-Patch([object]$Release) {
         }
         throw "A previous backup state already exists at $statePath. Verify or uninstall it first."
     }
+    Write-InstallStage 3 5 'Creating the recovery backup'
     New-Item -ItemType Directory -Force -Path $game.BackupRoot | Out-Null
     $originalBlockPath = Join-Path $game.BackupRoot 'LaunchInstance.original.oodle'
     [System.IO.File]::WriteAllBytes($originalBlockPath, $originalBlock)
@@ -300,6 +323,7 @@ function Install-Patch([object]$Release) {
     $changedFiles = [System.Collections.Generic.List[object]]::new()
     $fullBackup = $null
     try {
+        Write-InstallStage 4 5 "Installing $(@($Release.external_bridge.files).Count) translation files"
         foreach ($entry in @($Release.external_bridge.files)) {
             $source = Resolve-SafeChild $AssetsRoot ([string]$entry.payload)
             $destination = Resolve-SafeChild $game.Root ([string]$entry.relative_path)
@@ -342,6 +366,7 @@ function Install-Patch([object]$Release) {
         }
         $state | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath $statePath -Encoding UTF8
 
+        Write-InstallStage 5 5 'Applying and verifying the PAK bridge'
         $replacementPath = Resolve-SafeChild $AssetsRoot ([string]$game.Block.payload)
         $replacement = [System.IO.File]::ReadAllBytes($replacementPath)
         $fullBackup = Install-PakBridge $game $replacement $installedHash
@@ -353,6 +378,7 @@ function Install-Patch([object]$Release) {
         $state.full_pak_backup = $fullBackup
         $state.pak_patched = $true
         $state | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath $statePath -Encoding UTF8
+        Write-Host ''
         Write-Host "LOTM English patch installed successfully ($($Release.display_version))." -ForegroundColor Green
         Write-Host "Backup: $($game.BackupRoot)"
     }
