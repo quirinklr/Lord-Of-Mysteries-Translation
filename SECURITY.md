@@ -1,5 +1,7 @@
 # Security
 
-Report security issues through the repository's private GitHub security advisory form.
+Report vulnerabilities through [GitHub private vulnerability reporting](https://github.com/quirinklr/Lord-Of-Mysteries-Translation/security/advisories/new).
 
-The release installer does not execute third-party patch programs. It verifies packaged files and the supported game PAK with SHA-256 before making changes.
+Do not report vulnerabilities in a public issue.
+
+Only the latest patch release is supported.

@@ -1,0 +1,53 @@
+name: Bug report
+description: Report an installer, runtime, or compatibility problem
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Installer
+        - Translation runtime
+        - Game compatibility
+        - Uninstall or recovery
+    validations:
+      required: true
+  - type: input
+    id: patch-version
+    attributes:
+      label: Patch version
+      placeholder: 1.0.0
+    validations:
+      required: true
+  - type: input
+    id: game-version
+    attributes:
+      label: Game version
+      placeholder: 1.2018737.2044036
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Explain what happened and what you expected.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Run...
+        2. Open...
+        3. See...
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots or output
+      description: Remove account details and other personal information before posting.

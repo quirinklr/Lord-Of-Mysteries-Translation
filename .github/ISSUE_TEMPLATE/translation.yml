@@ -1,0 +1,34 @@
+name: Translation correction
+description: Report missing, incorrect, or awkward English text
+title: "[Translation] "
+labels:
+  - translation
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: Name the quest, menu, character, item, or scene.
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current English text
+    validations:
+      required: true
+  - type: textarea
+    id: suggested
+    attributes:
+      label: Suggested English text
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Original Chinese text
+  - type: textarea
+    id: context
+    attributes:
+      label: Context or screenshot
+      description: Explain the scene or attach a screenshot without account details.

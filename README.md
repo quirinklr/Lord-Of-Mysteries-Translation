@@ -1,55 +1,70 @@
-# LOTM English Patch
+<h1 align="center">LOTM English Patch</h1>
 
-Unofficial English patch for the Bilibili PC release of *Lord of Mysteries*.
+<p align="center">Unofficial English patch for the Bilibili PC release of <em>Lord of Mysteries</em>.</p>
 
-Supported game build: `1.2018737.2044036`
+<p align="center">
+  <a href="https://github.com/quirinklr/Lord-Of-Mysteries-Translation/releases/latest"><img alt="Release" src="https://img.shields.io/github/v/release/quirinklr/Lord-Of-Mysteries-Translation"></a>
+  <a href="https://github.com/quirinklr/Lord-Of-Mysteries-Translation/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/quirinklr/Lord-Of-Mysteries-Translation/actions/workflows/ci.yml/badge.svg"></a>
+  <a href="LICENSE"><img alt="Code license" src="https://img.shields.io/badge/code_license-MIT-blue"></a>
+</p>
 
-## Install
+<p align="center">
+  <a href="https://github.com/quirinklr/Lord-Of-Mysteries-Translation/releases/latest">Download</a> ·
+  <a href="#installation">Installation</a> ·
+  <a href="https://github.com/quirinklr/Lord-Of-Mysteries-Translation/issues">Issues</a> ·
+  <a href="CONTRIBUTING.md">Contributing</a>
+</p>
 
-1. Download and extract the latest release.
-2. Close the game and launcher.
-3. Run `Install.cmd`.
-4. Approve the Windows administrator prompt.
+Supported game version: `1.2018737.2044036` on Bilibili PC.
+
+## Installation
+
+1. Download `LOTM-English-Patch-1.0.0.zip` from the [latest release](https://github.com/quirinklr/Lord-Of-Mysteries-Translation/releases/latest).
+2. Extract the ZIP completely.
+3. Close the game and Bilibili launcher.
+4. Run `Install.cmd` and approve the administrator prompt.
 5. Start the game normally.
 
-The installer finds the default Bilibili installation automatically. If the game is elsewhere, it asks for the `C7` folder.
+The installer detects the default game folder. If detection fails, select the `C7` folder when prompted.
 
-Use `Update.cmd`, `Verify.cmd`, or `Uninstall.cmd` for maintenance.
+No Python, .NET, Git, third-party patch executable, or network accelerator is required.
+
+## Maintenance
+
+| File | Purpose |
+| --- | --- |
+| `Update.cmd` | Update an existing patch installation |
+| `Verify.cmd` | Check the PAK bridge and every managed file |
+| `Uninstall.cmd` | Restore the original game files |
 
 ## Safety
 
-- No third-party patch executable is used.
-- No DLL injection or live process modification is used.
-- Package files and the supported game build are checked with SHA-256.
-- The original PAK block is backed up before installation.
-- Unsupported or modified game builds are rejected.
+- Verifies the package and supported game PAK with SHA-256.
+- Backs up the original PAK block before installation.
+- Rejects unsupported or modified game builds.
+- Does not inject a DLL or modify a running process.
 
-## Coverage
+## Limitations
 
-The patch contains 38 language overlays, reviewed runtime fixes, a 25,058-module Lua corpus, 5,606 additional literal translations, and 1,056 English quality corrections. Runtime logging catches text delivered outside the packaged game corpus.
+Text embedded in images or video is outside the Lua translation layer. Game updates may require a new patch release.
 
-Text embedded in images or video is outside the Lua translation layer.
+## Contributing
+
+Translation corrections, bug reports, and code changes are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
 
 ## Development
 
-Requirements: Python 3.10+ and Windows PowerShell 5.1.
-
-- `src` contains the maintained runtime source.
-- `translations` contains the canonical editable translation data.
-- `patch` contains the synchronized Windows release payload.
-- `tools` contains build and audit utilities.
-- `tests` contains package, generator, and repository checks.
-
-Run `tools\sync_patch_package.py` after changing runtime source or translation data. Files under `patch\assets\payload\bridge\game\Saved\Mods\lua\cpdd_translation` are preserved compatibility bytecode and are not maintained source.
+Requirements: Python 3.10+, .NET 10 SDK, and Windows PowerShell 5.1.
 
 ```powershell
 python tools\sync_patch_package.py
 python -m compileall -q tools tests
 python -m unittest discover -s tests -v
 dotnet build tools\iostore_inventory\iostore_inventory.csproj --configuration Release -p:RestoreLockedMode=true
-powershell -NoProfile -ExecutionPolicy Bypass -File tools\build_release.ps1
 ```
+
+Maintained translation data lives in `translations`. Generated Lua payloads live in `src` and `patch`. The preserved compatibility bytecode under `patch/assets/payload/bridge/game/Saved/Mods/lua/cpdd_translation` is not maintained source.
 
 ## License
 
-Project code is MIT licensed. Translation data, game-derived identifiers, and binary compatibility assets are excluded from the MIT license. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+Project code is licensed under MIT. Translation data, game-derived identifiers, and compatibility assets are excluded from the MIT license. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
