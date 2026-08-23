@@ -1,5 +1,5 @@
 {
-  "display_version": "1.0.0",
+  "display_version": "1.0.1",
   "external_bridge": {
     "alias_count": 7,
     "files": [
@@ -300,7 +300,7 @@
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/Init.lua",
         "relative_path": "Saved/Mods/lua/mods/cpdd_runtime_fixes/Init.lua",
-        "sha256": "5a06e86da6adcbeaa10fd0c2c51707907357b29a4cf30afea9d81eff55584812",
+        "sha256": "eb462ecfa006b119f59b9e0efb5d3851e073a5179e572c7f37e69fc9dab0c783",
         "size": 120160
       },
       {
@@ -372,7 +372,7 @@
       {
         "payload": "payload/bridge/game/Saved/Mods/translation-overrides.state.json",
         "relative_path": "Saved/Mods/translation-overrides.state.json",
-        "sha256": "e5795dd83a47b55a335b21bcba9c17b96e4efc6dedc8e062d582ce6cb56b0bbc",
+        "sha256": "1f17a78862e5b804524c4ff96f8daf943aba9b6170267523a8802eba359c6dae",
         "size": 28042
       }
     ],
@@ -391,7 +391,7 @@
     "loader_version": "0.4.0",
     "overlay_count": 38,
     "payload_count": 46,
-    "runtime_version": "1.0.0",
+    "runtime_version": "1.0.1",
     "translation_delivery": "official-cn-modules-with-reviewed-id-overlays-and-curated-runtime",
     "translation_release_id": "lotm-english-data-20260823"
   },
@@ -399,7 +399,7 @@
   "install_ready": true,
   "patch_method": "bootstrap_only_external_translation_overlays",
   "release_blocker": "",
-  "release_id": "lotm-english-1.0.0",
+  "release_id": "lotm-english-1.0.1",
   "supported_base_paks": [
     {
       "name": "BiliBili C7 1.2018737.2044036",

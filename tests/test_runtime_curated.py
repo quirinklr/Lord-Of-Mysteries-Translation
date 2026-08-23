@@ -57,7 +57,7 @@ class CuratedRuntimeTextTests(unittest.TestCase):
     def test_runtime_loader_imports_curated_map(self) -> None:
         init = INIT.read_text(encoding="utf-8")
         self.assertIn('require, "mods.cpdd_runtime_fixes.RuntimeTextCurated"', init)
-        self.assertIn('local VERSION = "1.0.0"', init)
+        self.assertIn('local VERSION = "1.0.1"', init)
 
     def test_generated_runtime_table_is_current(self) -> None:
         subprocess.run(
