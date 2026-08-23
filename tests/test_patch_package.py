@@ -34,7 +34,7 @@ class PatchPackageTests(unittest.TestCase):
 
     def test_runtime_audit_is_packaged(self) -> None:
         release = json.loads(RELEASE.read_text(encoding="utf-8"))
-        self.assertEqual("1.0.0", release["external_bridge"]["runtime_version"])
+        self.assertEqual("1.0.1", release["external_bridge"]["runtime_version"])
         paths = {entry["relative_path"] for entry in release["external_bridge"]["files"]}
         self.assertIn("Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextCurated.lua", paths)
         self.assertIn("Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeIdCurated.lua", paths)

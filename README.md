@@ -19,7 +19,7 @@ Supported game version: `1.2018737.2044036` on Bilibili PC.
 
 ## Installation
 
-1. Download `LOTM-English-Patch-1.0.0.zip` from the [latest release](https://github.com/quirinklr/Lord-Of-Mysteries-Translation/releases/latest).
+1. Download the patch ZIP from the [latest release](https://github.com/quirinklr/Lord-Of-Mysteries-Translation/releases/latest).
 2. Extract the ZIP completely.
 3. Close the game and Bilibili launcher.
 4. Run `Install.cmd` and approve the administrator prompt.

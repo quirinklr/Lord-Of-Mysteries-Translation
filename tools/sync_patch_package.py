@@ -17,10 +17,10 @@ TRANSLATION_STATE_PATH = PAYLOAD_GAME / "Saved" / "Mods" / "translation-override
 CURATED_SOURCE_PATH = ROOT / "translations" / "runtime_curated.json"
 CONTEXT_SOURCE_PATH = ROOT / "translations" / "runtime_context_curated.json"
 
-DISPLAY_VERSION = "1.0.0"
-RELEASE_ID = "lotm-english-1.0.0"
+DISPLAY_VERSION = "1.0.1"
+RELEASE_ID = "lotm-english-1.0.1"
 TRANSLATION_RELEASE_ID = "lotm-english-data-20260823"
-RUNTIME_VERSION = "1.0.0"
+RUNTIME_VERSION = "1.0.1"
 RUNTIME_FILES = (
     "Init.lua",
     "RuntimeTextCurated.lua",

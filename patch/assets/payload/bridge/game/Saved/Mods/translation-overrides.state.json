@@ -2,8 +2,8 @@
   "formatVersion": 3,
   "sourceKind": "bundled-certified-release-assets-plus-reviewed-runtime",
   "translationReleaseId": "lotm-english-data-20260823",
-  "installerReleaseId": "lotm-english-1.0.0",
-  "displayVersion": "1.0.0",
+  "installerReleaseId": "lotm-english-1.0.1",
+  "displayVersion": "1.0.1",
   "target": "C7/Saved/Mods",
   "aliases": 7,
   "overlays": 38,
@@ -292,7 +292,7 @@
     {
       "relativePath": "lua/mods/cpdd_runtime_fixes/Init.lua",
       "mappingKind": "runtime-core",
-      "sha256": "5a06e86da6adcbeaa10fd0c2c51707907357b29a4cf30afea9d81eff55584812",
+      "sha256": "eb462ecfa006b119f59b9e0efb5d3851e073a5179e572c7f37e69fc9dab0c783",
       "size": 120160
     },
     {
@@ -604,7 +604,7 @@
     },
     {
       "relativePath": "Saved/Mods/lua/mods/cpdd_runtime_fixes/Init.lua",
-      "sha256": "5a06e86da6adcbeaa10fd0c2c51707907357b29a4cf30afea9d81eff55584812",
+      "sha256": "eb462ecfa006b119f59b9e0efb5d3851e073a5179e572c7f37e69fc9dab0c783",
       "size": 120160
     },
     {
@@ -669,7 +669,7 @@
     "fallback": "official Chinese source row"
   },
   "reviewedRuntime": {
-    "runtimeVersion": "1.0.0",
+    "runtimeVersion": "1.0.1",
     "curatedSource": "translations/runtime_curated.json",
     "curatedEntries": 50,
     "contextBoundEntries": 95,

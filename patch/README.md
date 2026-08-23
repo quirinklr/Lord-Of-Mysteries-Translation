@@ -1,4 +1,4 @@
-# LOTM English Patch 1.0.0
+# LOTM English Patch 1.0.1
 
 Supported game build: `1.2018737.2044036`
 
