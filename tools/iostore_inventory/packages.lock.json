@@ -4,11 +4,12 @@
     "net10.0": {
       "CUE4Parse": {
         "type": "Direct",
-        "requested": "[1.2.2.202608, )",
-        "resolved": "1.2.2.202608",
-        "contentHash": "oJd7SFkLYKT5AsPmAW30WMGWIwq4S2GZayB5ZEU8kWtJsjCa96XWl8YZOfkFmMIIj6O2zYChwhX5otAd8ROMtQ==",
+        "requested": "[1.2.2.202611, )",
+        "resolved": "1.2.2.202611",
+        "contentHash": "vQXCDutgh5bEeNCuBHsE+sCqlbLOCd8JdwZab7Zkxs20u5Q78KPMZRDOA4NOo8bzPHpIkvWx6vGFi8BQjNOL+Q==",
         "dependencies": {
-          "Blake3": "2.2.1",
+          "Berrysoft.XXTea": "4.0.9",
+          "Blake3": "3.0.2",
           "BouncyCastle.Cryptography": "2.6.2",
           "FixedMathSharp": "4.0.1",
           "Fmod5Sharp": "3.1.0",
@@ -36,10 +37,15 @@
         "resolved": "10.0.11",
         "contentHash": "gOK5j94niQhCvUXA5sXn/h4khL0ZHPlKZx//SJ9pwuydpWSDIPBpduLWty5MYMEJkWs/ewYbG1LAqfPLOprDgg=="
       },
+      "Berrysoft.XXTea": {
+        "type": "Transitive",
+        "resolved": "4.0.9",
+        "contentHash": "egPzlakxtRpYl4rd7S5XYSfOMbSjmlurUFEgPU5+q4B+9f0qhlfr0Scn9zs8LqqXPeRq1j41z7A+qCrRZDyJsw=="
+      },
       "Blake3": {
         "type": "Transitive",
-        "resolved": "2.2.1",
-        "contentHash": "HfNW2Iiy4hCaVDVGFEyk0mks+M5HSU3O8O517LyYkI6FFuj2jpvNlag4kGQFDSRmJi4/axgOei8k02NKq/uoDg=="
+        "resolved": "3.0.2",
+        "contentHash": "THvWhdj8ErSdrGamTqjshCU1ImANfr7ieKY6eFqeMsRenvXEKut9qGm5/MA4SUk8IYvAahf67jSh0yVj9jTPzg=="
       },
       "BouncyCastle.Cryptography": {
         "type": "Transitive",
